@@ -1,19 +1,24 @@
 {
-    "products": [
-        {
-            "id": 1,
-            "name": "Caneta BIC Preta",
-            "price": 5.90
-        },
-        {
-            "id": 2,
-            "name": "Notebook Mac Pro",
-            "price": 12000.72
-        },
-        {
-            "id": 3,
-            "name": "Teclado Gamming",
-            "price": 279.80
-        }
-    ]
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneta BIC Preta",
+      "price": 5.9
+    },
+    {
+      "id": 2,
+      "name": "Notebook Mac Pro",
+      "price": 12000.72
+    },
+    {
+      "id": 3,
+      "name": "Teclado Gamming",
+      "price": 279.8
+    },
+    {
+      "name": "",
+      "price": null,
+      "id": 4
+    }
+  ]
 }

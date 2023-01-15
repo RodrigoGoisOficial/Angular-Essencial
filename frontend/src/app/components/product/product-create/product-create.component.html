@@ -1,7 +1,23 @@
-<button mat-raised-button (click)="createProduct()" color="primary">
-  Salvar
-</button>
+<mat-card>
+  <mat-card-content>
+    <mat-card-title>Novo Produto</mat-card-title>
+    <form>
+      <mat-form-field appearance="fill">
+        <mat-label>Nome</mat-label>
+        <input matInput [(ngModel)]="product.name" name="name">
+      </mat-form-field>
 
-<button mat-raised-button (click)="cancel()" color="seconday">
-  Cancelar
-</button>
+      <mat-form-field appearance="fill">
+        <mat-label>Preço (R$)</mat-label>
+        <input matInput [(ngModel)]="product.price" name="price">
+      </mat-form-field>
+    </form>
+
+    <button mat-raised-button (click)="createProduct()" color="primary">
+      Salvar
+    </button>
+    <button mat-raised-button (click)="cancel()">
+      Cancelar
+    </button>
+  </mat-card-content>
+</mat-card>
